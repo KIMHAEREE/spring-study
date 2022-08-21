@@ -5,7 +5,7 @@ import hello.hellospring.domain.Member;
 import java.util.List;
 import java.util.Optional;
 
-//비즈니스 서비스 interface
+//비즈니스 리포지토리 interface
 public interface MemberRepository {
     Member save(Member member);
     Optional<Member> findById(Long id);

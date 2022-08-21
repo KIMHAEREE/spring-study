@@ -4,7 +4,7 @@ import hello.hellospring.domain.Member;
 
 import java.util.*;
 
-//비즈니스 로직 구현 class
+//비즈니스 리포지토리 구현 class ( 리포지토리 : 데이터베이스에 접근, 객체를 DB에 저장하고 관리)
 public class MemoryMemberRepository implements MemberRepository{
 
     private static Map<Long, Member> store = new HashMap<>();
